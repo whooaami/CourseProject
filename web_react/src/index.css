@@ -1,0 +1,121 @@
+body {
+    background-image: url('../public/assets/bg.jpeg');
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.root {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    /* background-image: `url(${process.env.PUBLIC_URL + '/assets/bg.jpeg'})`;
+    background-repeat: no-repeat;
+    background-position: -50px; */ 
+    width: 93%;
+    margin: 0 auto;
+}
+
+img {
+    height: 500px;
+}
+
+.wrapper {
+    /* background: #fff; */
+    padding-top: 200px;
+    background-image: url('../public/assets/bg.jpeg');
+    /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4); */
+    /* border-radius: 20px; */
+    /* max-width: 900px; */
+    /* margin: 50px auto; */
+}
+
+/* .header-info {
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 100%;
+} */
+
+.intro_title {
+    font-size: 50px;
+    color: #fff;
+}
+
+.intro_paragraph {
+    font-size: 24px;
+    color: #fff;
+}
+
+.home_title {
+    color: #fff;
+}
+
+.button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(109, 106, 106);
+    color: black;
+    border-radius: 4px;
+}
+
+
+.button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.button_back {
+    display: flex;
+    justify-content: left;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(109, 106, 106);
+    color: black;
+    border-radius: 4px;
+}
+
+.button_back:hover {
+    background-color: rgb(155, 50, 50);
+    color: black;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 20%;
+    color: #fff;
+}
+
+td,
+th {
+    padding: 15px;
+}
